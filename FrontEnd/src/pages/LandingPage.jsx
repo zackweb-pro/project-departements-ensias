@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import Departments from '../components/Departments'
-import background_ensias from '../assets/background_ENSIAS.png'
+import background_ensias from '../assets/59.jpg'
 import ensias_logo_whitebg from '../assets/Ensias2.jpg'
 import ensias_logo_bg_removed from '../assets/Ensias2-removebg-preview.png'
 import um5 from '../assets/Mohammed_V_University_Logo.png'
-import ensias_image from '../assets/ensias_image1.png'
+import ensias_image from '../assets/55.jpg'
 function App() {
   const [activeSection, setActiveSection] = useState('')
 
@@ -142,7 +142,7 @@ function App() {
   id="about"
   className="min-h-screen bg-gray-50 flex items-center justify-center px-4 py-20"
 >
-  <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
+  <div className="max-w-6xl w-full grid md:grid-cols-2 gap-[150px] items-center">
     <img
       src={ensias_image}
       alt="ENSIAS campus"
